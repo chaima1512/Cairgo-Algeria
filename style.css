@@ -1,0 +1,58 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.logo {
+  height: 50px;
+  margin-right: 1rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+main {
+  padding: 2rem;
+}
+.kpi {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.card {
+  padding: 1rem;
+  border-radius: 10px;
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.green { background: #d4edda; color: #155724; }
+.blue { background: #d1ecf1; color: #0c5460; }
+.orange { background: #fff3cd; color: #856404; }
+
+.map {
+  margin-bottom: 2rem;
+}
+.fake-map {
+  background: #ddd;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  color: #666;
+  border: 1px solid #ccc;
+}
+.assistant button {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
